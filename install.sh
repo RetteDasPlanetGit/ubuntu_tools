@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Start text
+echo "This script will install PhpStorm, IntelliJ IDEA, PyCharm (Professional/Ultimate editions), Spotify, and Discord on Ubuntu."
+echo "Please make sure you have the necessary licenses or subscriptions for the JetBrains tools."
+read -p "Press Enter to continue or Ctrl+C to cancel..."
+
 # Add JetBrains Toolbox repository
 wget -qO - https://jetbrains.com/toolbox/jetbrains-toolbox.asc | sudo gpg --dearmor -o /usr/share/keyrings/jetbrains-toolbox.gpg
 echo "deb [signed-by=/usr/share/keyrings/jetbrains-toolbox.gpg] https://jetbrains.com/toolbox/ download/" | sudo tee /etc/apt/sources.list.d/jetbrains-toolbox.list > /dev/null
