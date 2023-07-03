@@ -1,6 +1,6 @@
 # Install Command
 
-``sh
+``bash
 #!/bin/bash
 
 # Install Docker
