@@ -1,6 +1,6 @@
 # Install Command
 
-``bash
+```bash
 #!/bin/bash
 
 # Install Docker
@@ -29,4 +29,4 @@ cd ..
 rm -rf jetbrains-toolbox*/
 
 echo "Installation complete!"
-``
+```
