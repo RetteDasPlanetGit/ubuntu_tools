@@ -4,13 +4,13 @@
 #!/bin/bash
 
 # Install Docker
-sudo pacman -Syu --noconfirm docker
+sudo apt install docker.io -y
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker $USER
 
 # Install Docker Compose
-sudo pacman -Syu --noconfirm docker-compose
+sudo apt install docker-compose -y
 
 # Install JetBrains Toolbox
 wget -O jetbrains-toolbox.tar.gz "https://data.services.jetbrains.com/products/download?platform=linux&code=TBA"
